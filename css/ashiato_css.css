@@ -1,0 +1,197 @@
+/*
+ *  ashiato_css.css
+ */
+
+/* body */
+body{
+  background-image:url(../images/back.jpg);
+}
+
+/* p */
+p.title{
+  font-size:100px;
+  font-weight:bold;
+  font-family:"ＤＦ流隷体W5",fantasy;
+  position:absolute;
+  top:-30px;
+  left:0px;
+  text-shadow:3px 3px 1px black;
+}
+p.subtitle{
+  font-size:40px;
+  font-weight:bold;
+  font-family:"ＤＦ流隷体W5",fantasy;
+  position:absolute;
+  top:230px;
+  left:20px;
+  text-shadow:3px 3px 1px black;
+}
+p.intro{
+  font-family:"ＤＦロマン雪W9",fantasy;
+  text-align:center;
+}
+
+/* table */
+table{
+  position:relative;
+  z-index:1;
+}
+table.title{
+  width:600px;
+  border-style:ridge;
+}
+table.menu{
+  width:100px;
+  background-color:#f1f1f1;
+  left:240px;
+  border-style:outset;
+}
+table.updates{
+  width:400px;
+  background-color:#f1f1f1;
+  top:-220px;
+  left:-100px;
+  border-style:solid;
+  border-collapse:collapse;
+}
+table.map{
+  width:600px;
+}
+table.explgames{
+  width:400px;
+  height:200px;
+  background-color:#fff352; /* lemon yellow */
+  top:-220px;
+  left:-100px;
+  border-style:ridge;
+  font-size:19px;
+  color:black;
+  font-weight:bold;
+  font-family:"ＤＦロマン雪W9",fantasy;
+  text-align:center;
+}
+table.explresearch{
+  width:400px;
+  height:200px;
+  background-color:#b79fcb; /* crocus */
+  top:-220px;
+  left:-100px;
+  border-style:ridge;
+  font-size:16px;
+  color:black;
+  font-weight:bold;
+  font-family:"ＤＦロマン雪W9",fantasy;
+  text-align:center;
+}
+table.expllinks{
+  width:400px;
+  height:200px;
+  background-color:#a7d28d; /* apple green */
+  top:-220px;
+  left:-100px;
+  border-style:ridge;
+  font-size:21px;
+  color:black;
+  font-weight:bold;
+  font-family:"ＤＦロマン雪W9",fantasy;
+  text-align:center;
+}
+table.outline{
+  width:200px;
+  top:-130px;
+  background-color:salmon;
+  border-style:groove;
+  text-align:center;
+}
+table.games{
+  width:600px;
+  top:-100px;
+  border-style:inset;
+}
+/*
+table.research{
+  width:600px;
+  top:-100px;
+  border-style:double;
+  font-size:20px;
+  font-family:"CRPＣ＆Ｇれいしっく",fantasy;
+}
+*/
+table.links{
+  width:600px;
+  background-color:palegreen;
+  top:-100px;
+  border-style:groove;
+  border-collapse:collapse;
+  text-align:center;
+}
+table.top{
+  width:100px;
+  height:40px;
+  background-color:lightsalmon;
+  top:-100px;
+  border-style:groove;
+  font-size:15px;
+  text-align:center;
+  border-collapse:collapse;
+}
+caption.game{
+  font-size:30px;
+  color:maroon;
+  font-weight:bold;
+  font-family:"CRPＣ＆Ｇれいしっく",fantasy;
+  text-shadow:3px 3px 5px pink;
+}
+th{
+  color:midnightblue;
+  text-shadow:2px 2px 5px powderblue;
+}
+tr.link{
+  border-top-style:dotted;
+}
+tr.update{
+  border-bottom-style:dotted;
+}
+td.menu{
+  border-style:outset;
+}
+
+/* a */
+a{
+  text-decoration:none;
+}
+
+/* img */
+img.game{
+  width:300px;
+}
+img.link{
+  width:300px;
+}
+
+/* div */
+div.ad{
+  position:absolute;
+  top:10px;
+  right:10px;
+}
+
+/* span */
+span.red{
+  color:tomato;
+}
+span.green{
+  color:springgreen;
+}
+span.blue{
+  color:deepskyblue;
+}
+span.orange{
+  color:orange;
+}
+span.pink{
+  color:pink;
+}
+span.brown{
+  color:chocolate;
+}
