@@ -108,7 +108,6 @@ table.games{
   top:-100px;
   border-style:inset;
 }
-/*
 table.research{
   width:600px;
   top:-100px;
@@ -116,7 +115,6 @@ table.research{
   font-size:20px;
   font-family:"CRPＣ＆Ｇれいしっく",fantasy;
 }
-*/
 table.links{
   width:600px;
   background-color:palegreen;
@@ -142,6 +140,13 @@ caption.game{
   font-family:"CRPＣ＆Ｇれいしっく",fantasy;
   text-shadow:3px 3px 5px pink;
 }
+caption.research{
+  font-size:20px;
+  color:darkolivegreen;
+  font-weight:bold;
+  font-family:"CRPＣ＆Ｇれいしっく",fantasy;
+  text-shadow:3px 3px 5px green;
+}
 th{
   color:midnightblue;
   text-shadow:2px 2px 5px powderblue;
@@ -154,6 +159,9 @@ tr.update{
 }
 td.menu{
   border-style:outset;
+}
+td.video{
+  text-align:center;
 }
 
 /* a */
