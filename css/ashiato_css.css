@@ -18,11 +18,11 @@ p.title{
   text-shadow:3px 3px 1px black;
 }
 p.subtitle{
-  font-size:40px;
+  font-size:22px;
   font-weight:bold;
   font-family:"ＤＦ流隷体W5",fantasy;
   position:absolute;
-  top:230px;
+  top:250px;
   left:20px;
   text-shadow:3px 3px 1px black;
 }
