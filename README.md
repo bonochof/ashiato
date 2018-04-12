@@ -1,2 +1,2 @@
 # あしあと
-http://www.ashiato.bufsiz.jp
+http://ashiato.bufsiz.jp
