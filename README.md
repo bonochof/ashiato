@@ -1,2 +1,2 @@
-# ashiato
+# あしあと
 My homapage repository
