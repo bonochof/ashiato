@@ -1,2 +1,2 @@
 # あしあと
-My homapage repository
+http://www.ashiato.bufsiz.jp
