@@ -2,6 +2,7 @@
 http://ashiato.bufsiz.jp
 
 ## 内容
+* Blog
 * Game
 * Research
 * Link
