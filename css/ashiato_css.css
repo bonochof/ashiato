@@ -191,6 +191,9 @@ td.menu{
 td.video{
   text-align:center;
 }
+td.link{
+  padding:20px;
+}
 
 /* a */
 a{
