@@ -8,5 +8,5 @@ function altRan2() {
   var r = Math.floor(Math.random() * 6) + 1;
 
   // output
-  document.getElemenetById("sai").innerHTML = r;
+  document.getElementById("sai").innerHTML = r;
 }
