@@ -67,6 +67,19 @@ table.profile{
   font-weight:bold;
   text-align:left;
 }
+table.expltools{
+  width:400px;
+  height:200px;
+  background-color:#87ceeb; /* skyblue */
+  top:-220px;
+  left:-100px;
+  border-style:ridge;
+  font-size:19px;
+  color:black;
+  font-weight:bold;
+  font-family:"ＤＦロマン雪W9",fantasy;
+  text-align:center;
+}
 table.explgames{
   width:400px;
   height:200px;
@@ -112,6 +125,10 @@ table.outline{
   background-color:salmon;
   border-style:groove;
   text-align:center;
+}
+table.tools{
+  top:-100px;
+  border-style:inset;
 }
 table.games{
   width:600px;
