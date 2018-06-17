@@ -129,6 +129,7 @@ table.outline{
 table.tools{
   top:-100px;
   border-style:inset;
+  text-align:center;
 }
 table.games{
   width:600px;
