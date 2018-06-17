@@ -48,19 +48,21 @@
     
     <p><table align="center" class="tools">
     <caption>タイマー</caption>
-    <tr><td><form name="form_count"><input name="counter" type="text" size="12"></form></td></tr>
+    <tr><td><form name="form_count">
+    <input name="counter" type="text" size="6">
+    <input type="button" value="Start/Reset" onClick="timer_set()"></form></td></tr>
     </table></p>
     <script type="text/javascript" src="./js/timer.js"></script>
     
     <p><table align="center" class="tools">
     <caption>おみくじ</caption>
-    <tr><td><form><input type="button" value="おみくじ" onClick="omikuji()"></form></td></tr>
+    <tr><td><form><input type="button" value="　引く　" onClick="omikuji()"></form></td></tr>
     </table></p>
     <script type="text/javascript" src="./js/omikuji.js"></script>
     
     <p><table align="center" class="tools">
     <caption>サイコロ</caption>
-    <tr><td><form><input type="button" value="サイコロ" onClick="altRan2()"> <span id="sai">-</span></form></td></tr>
+    <tr><td><form><input type="button" value="回す" onClick="altRan2()"> <span id="sai">-</span></form></td></tr>
     </table></p>
     <script type="text/javascript" src="./js/dice.js"></script>
     

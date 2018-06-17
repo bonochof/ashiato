@@ -3,8 +3,6 @@
   Ryosuke Takata
 ******************/
 
-timer_set();
-
 function timer_set() {
   timer_fix = 2;
 
