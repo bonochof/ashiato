@@ -7,7 +7,7 @@
 function setRepeat() {
   var s = document.form_repeat.f_text.value;
   var num = document.form_repeat.f_number.value;
-  document.getElementById("output").innerHTML = repeatText(s, num);
+  document.form_repeat.repeat.value = repeatText(s, num);
 }
 
 // repeat
