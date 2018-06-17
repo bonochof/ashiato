@@ -57,10 +57,20 @@ table.updates{
 table.map{
   width:600px;
 }
+table.profile{
+  background-color:#ffffff; /* white */
+  top:-220px;
+  left:-100px;
+  border-style:ridge;
+  font-size:14px;
+  color:black;
+  font-weight:bold;
+  text-align:left;
+}
 table.explgames{
   width:400px;
   height:200px;
-  background-color:#fff352; /* lemon yellow */
+  background-color:#f0e68c; /* khaki */
   top:-220px;
   left:-100px;
   border-style:ridge;
