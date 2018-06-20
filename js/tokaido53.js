@@ -74,12 +74,11 @@ class Tokaido53 {
   showInitImage() {
     this.pos = 0;
     this.showImageN(this.pos);
-    console.log(typeof(this.images));
   }
   
   nextImage() {
     this.pos++;
-    if (this.pos >= this.imeges.length) {
+    if (this.pos >= this.images.length) {
       this.pos = 0;
     }
     this.showImageN(this.pos);
@@ -87,3 +86,4 @@ class Tokaido53 {
 }
 
 const tokaido53 = new Tokaido53(0);
+tokaido53.showInitImage();
