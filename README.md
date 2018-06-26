@@ -2,10 +2,11 @@
 http://ashiato.bufsiz.jp
 
 ## 内容
-* Blog
-* Game
+* Profile(現在は非公開)
+* Tools
+* Games
 * Research
-* Link
+* Links
 
 ## 開発者
 [bonochof](https://github.com/bonochof)
