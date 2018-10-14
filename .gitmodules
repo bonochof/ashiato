@@ -1,0 +1,3 @@
+[submodule "games/dxopal-sample"]
+	path = games/dxopal-sample
+	url = https://github.com/bonochof/dxopal-sample.git
