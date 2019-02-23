@@ -5,6 +5,3 @@
 	path = class/tea-simulation
 	url = https://github.com/bonochof/tea-simulation.git
 	branch = dxopal
-[submodule "games/dxothello"]
-	path = games/dxothello
-	url = https://github.com/bonochof/dxothello.git
