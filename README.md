@@ -2,7 +2,7 @@
 http://ashiato.bufsiz.jp
 
 ## 内容
-* Profile(現在は非公開)
+* Profile
 * Tools
   * 時計
   * タイマー
