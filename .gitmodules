@@ -1,6 +1,3 @@
-[submodule "games/dxopal-sample"]
-	path = games/dxopal-sample
-	url = https://github.com/bonochof/dxopal-sample.git
 [submodule "class/tea-simulation"]
 	path = class/tea-simulation
 	url = https://github.com/bonochof/tea-simulation.git
