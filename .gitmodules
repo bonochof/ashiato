@@ -5,3 +5,6 @@
 [submodule "games/minimax-othello"]
 	path = games/minimax-othello
 	url = https://github.com/bonochof/minimax-othello.git
+[submodule "games/apple-catch"]
+	path = games/apple-catch
+	url = https://github.com/bonochof/apple-catch.git
