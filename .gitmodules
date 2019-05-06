@@ -8,3 +8,6 @@
 [submodule "games/apple-catch"]
 	path = games/apple-catch
 	url = https://github.com/bonochof/apple-catch.git
+[submodule "products/p2p-chat"]
+	path = products/p2p-chat
+	url = https://github.com/bonochof/p2p-chat.git
