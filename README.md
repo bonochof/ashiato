@@ -18,5 +18,7 @@ http://ashiato.bufsiz.jp
 * Research
 * Links
 
+* Class
+
 ## 開発者
 [bonochof](https://github.com/bonochof)
