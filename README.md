@@ -19,6 +19,7 @@ http://ashiato.bufsiz.jp
 * Links
 
 * Class
+  * tea simulation
 
 ## 開発者
 [bonochof](https://github.com/bonochof)
