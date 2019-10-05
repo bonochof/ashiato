@@ -1,7 +1,7 @@
 # あしあと
 http://ashiato.bufsiz.jp
 
-## 内容
+## Contents
 * Profile
 * Tools
   * 時計
@@ -21,5 +21,5 @@ http://ashiato.bufsiz.jp
 * Class
   * tea simulation
 
-## 開発者
+## Author
 [bonochof](https://github.com/bonochof)
