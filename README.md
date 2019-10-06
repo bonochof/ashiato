@@ -20,6 +20,8 @@ http://ashiato.bufsiz.jp
 
 * Class
   * tea simulation
+* Products
+  * p2p chat app
 
 ## Author
 [bonochof](https://github.com/bonochof)
