@@ -23,5 +23,8 @@ http://ashiato.bufsiz.jp
 * Products
   * p2p chat app
 
+## Language
+* HTML
+
 ## Author
 [bonochof](https://github.com/bonochof)
