@@ -25,6 +25,7 @@ http://ashiato.bufsiz.jp
 
 ## Language
 * HTML
+* CSS
 
 ## Author
 [bonochof](https://github.com/bonochof)
