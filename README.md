@@ -27,6 +27,7 @@ http://ashiato.bufsiz.jp
 * HTML
 * CSS
 * Javascript
+* Ruby (to js using Opal)
 
 ## Author
 [bonochof](https://github.com/bonochof)
