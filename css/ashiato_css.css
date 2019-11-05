@@ -3,242 +3,245 @@
  */
 
 /* body */
-body{
-  background-image:url(../images/back.jpg);
+body {
+  background-image: url(../images/back.jpg);
 }
 
 /* p */
-p.title{
-  font-size:100px;
-  font-weight:bold;
-  font-family:"ＤＦ流隷体W5",fantasy;
-  position:absolute;
-  top:-30px;
-  left:0px;
-  text-shadow:3px 3px 1px black;
+p.title {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "ＤＦ流隷体W5", fantasy;
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  text-shadow: 3px 3px 1px black;
 }
-p.subtitle{
-  font-size:22px;
-  font-weight:bold;
-  font-family:"ＤＦ流隷体W5",fantasy;
-  position:absolute;
-  top:250px;
-  left:20px;
-  text-shadow:3px 3px 1px black;
+p.subtitle {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "ＤＦ流隷体W5", fantasy;
+  position: absolute;
+  top: 250px;
+  left: 20px;
+  text-shadow: 3px 3px 1px black;
 }
-p.intro{
-  font-family:"ＤＦロマン雪W9",fantasy;
-  text-align:center;
+p.intro {
+  font-family: "ＤＦロマン雪W9", fantasy;
+  text-align: center;
 }
 
 /* table */
-table{
-  position:relative;
-  z-index:1;
+table {
+  position: relative;
+  z-index: 1;
 }
-table.title{
-  width:600px;
-  border-style:ridge;
+table.title {
+  width: 600px;
+  border-style: ridge;
 }
-table.menu{
-  width:100px;
-  background-color:#f1f1f1;
-  left:240px;
-  border-style:outset;
+table.menu {
+  width: 100px;
+  background-color: #f1f1f1;
+  border-style: outset;
+  float: right;
+  margin-right: 300px;
 }
-table.updates{
-  width:400px;
-  background-color:#f1f1f1;
-  top:-300px;
-  left:-100px;
-  border-style:solid;
-  border-collapse:collapse;
+table.updates {
+  width: 400px;
+  background-color: #f1f1f1;
+  border-style: solid;
+  border-collapse: collapse;
+  float: right;
+  margin-right: 50px;
 }
-table.map{
-  width:600px;
+table.twitter {
+  width: 400px;
+  float: right;
+  margin-right: -100px;
 }
-table.profile{
-  background-color:#ffffff; /* white */
-  top:-300px;
-  left:-100px;
-  border-style:ridge;
-  font-size:14px;
-  color:black;
-  font-weight:bold;
-  text-align:left;
+table.map {
+  width: 600px;
 }
-table.expltools{
-  width:400px;
-  height:200px;
-  background-color:#87ceeb; /* skyblue */
-  top:-220px;
-  left:-100px;
-  border-style:ridge;
-  font-size:19px;
-  color:black;
-  font-weight:bold;
-  font-family:"ＤＦロマン雪W9",fantasy;
-  text-align:center;
+table.profile {
+  background-color: #ffffff; /* white */
+  border-style: ridge;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 50px;
 }
-table.explgames{
-  width:400px;
-  height:200px;
-  background-color:#f0e68c; /* khaki */
-  top:-220px;
-  left:-100px;
-  border-style:ridge;
-  font-size:19px;
-  color:black;
-  font-weight:bold;
-  font-family:"ＤＦロマン雪W9",fantasy;
-  text-align:center;
+table.expltools {
+  width: 400px;
+  height: 200px;
+  background-color: #87ceeb; /* skyblue */
+  border-style: ridge;
+  font-size: 19px;
+  color: black;
+  font-weight: bold;
+  font-family: "ＤＦロマン雪W9", fantasy;
+  text-align: center;
+  float: top;
+  margin-bottom: 200px;
+  right: -150px;
 }
-table.explresearch{
-  width:400px;
-  height:200px;
-  background-color:#b79fcb; /* crocus */
-  top:-220px;
-  left:-100px;
-  border-style:ridge;
-  font-size:16px;
-  color:black;
-  font-weight:bold;
-  font-family:"ＤＦロマン雪W9",fantasy;
-  text-align:center;
+table.explgames {
+  width: 400px;
+  height: 200px;
+  background-color: #f0e68c; /* khaki */
+  border-style: ridge;
+  font-size: 19px;
+  color: black;
+  font-weight: bold;
+  font-family: "ＤＦロマン雪W9", fantasy;
+  text-align: center;
+  float: top;
+  margin-bottom: 200px;
+  right: -150px;
 }
-table.expllinks{
-  width:400px;
-  height:200px;
-  background-color:#a7d28d; /* apple green */
-  top:-220px;
-  left:-100px;
-  border-style:ridge;
-  font-size:21px;
-  color:black;
-  font-weight:bold;
-  font-family:"ＤＦロマン雪W9",fantasy;
-  text-align:center;
+table.explresearch {
+  width: 400px;
+  height: 200px;
+  background-color: #b79fcb; /* crocus */
+  border-style: ridge;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  font-family: "ＤＦロマン雪W9", fantasy;
+  text-align: center;
+  float: top;
+  margin-bottom: 200px;
+  right: -150px;
 }
-table.outline{
-  width:200px;
-  top:-130px;
-  background-color:salmon;
-  border-style:groove;
-  text-align:center;
+table.expllinks {
+  width: 400px;
+  height: 200px;
+  background-color: #a7d28d; /* apple green */
+  border-style: ridge;
+  font-size: 21px;
+  color: black;
+  font-weight: bold;
+  font-family: "ＤＦロマン雪W9", fantasy;
+  text-align: center;
+  float: top;
+  margin-bottom: 200px;
+  right: -150px;
 }
-table.tools{
-  top:-100px;
-  border-style:solid;
-  text-align:center;
+table.outline {
+  width: 200px;
+  background-color: salmon;
+  border-style: groove;
+  text-align: center;
 }
-table.games{
-  width:600px;
-  top:-100px;
-  border-style:inset;
+table.tools {
+  border-style: solid;
+  text-align: center;
 }
-table.research{
-  width:600px;
-  top:-100px;
-  border-style:double;
-  font-size:20px;
-  font-family:"CRPＣ＆Ｇれいしっく",fantasy;
+table.games {
+  width: 600px;
+  border-style: inset;
 }
-table.links{
-  width:600px;
-  background-color:palegreen;
-  top:-100px;
-  border-style:groove;
-  border-collapse:collapse;
-  text-align:center;
+table.research {
+  width: 600px;
+  border-style: double;
+  font-size: 20px;
+  font-family: "CRPＣ＆Ｇれいしっく", fantasy;
 }
-table.top{
-  width:100px;
-  height:40px;
-  background-color:lightsalmon;
-  top:-100px;
-  border-style:groove;
-  font-size:15px;
-  text-align:center;
-  border-collapse:collapse;
+table.links {
+  width: 600px;
+  background-color: palegreen;
+  border-style: groove;
+  border-collapse: collapse;
+  text-align: center;
 }
-caption.game{
-  font-size:30px;
-  color:maroon;
-  font-weight:bold;
-  font-family:"CRPＣ＆Ｇれいしっく",fantasy;
-  text-shadow:3px 3px 5px pink;
+table.top {
+  width: 100px;
+  height: 40px;
+  background-color: lightsalmon;
+  border-style: groove;
+  font-size: 15px;
+  text-align: center;
+  border-collapse: collapse;
 }
-caption.research{
-  font-size:20px;
-  color:darkolivegreen;
-  font-weight:bold;
-  font-family:"CRPＣ＆Ｇれいしっく",fantasy;
-  text-shadow:3px 3px 5px green;
+caption.game {
+  font-size: 30px;
+  color: maroon;
+  font-weight: bold;
+  font-family: "CRPＣ＆Ｇれいしっく", fantasy;
+  text-shadow: 3px 3px 5px pink;
 }
-th{
-  color:midnightblue;
-  text-shadow:2px 2px 5px powderblue;
+caption.research {
+  font-size: 20px;
+  color: darkolivegreen;
+  font-weight: bold;
+  font-family: "CRPＣ＆Ｇれいしっく", fantasy;
+  text-shadow: 3px 3px 5px green;
 }
-tr.link{
-  border-top-style:dotted;
+th {
+  color: midnightblue;
+  text-shadow: 2px 2px 5px powderblue;
 }
-tr.update{
-  border-bottom-style:dotted;
+tr.link {
+  border-top-style: dotted;
 }
-td.menu{
-  border-style:outset;
+tr.update {
+  border-bottom-style: dotted;
 }
-td.video{
-  text-align:center;
+td.menu {
+  border-style: outset;
 }
-td.link{
-  padding:20px;
+td.video {
+  text-align: center;
+}
+td.link {
+  padding: 20px;
 }
 
 /* a */
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 
 /* img */
-img.titlestring{
-  position:absolute;
-  left:0px;
-  top:0px;
+img.titlestring {
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
-img.game{
-  width:300px;
+img.game {
+  width: 300px;
 }
-img.link{
-  width:300px;
+img.link {
+  width: 300px;
 }
 
 /* div */
-div#ad01{
-  position:absolute;
-  top:10px;
-  right:10px;
+div#ad01 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
-div#ad02{
-  text-align:center;
+div#ad02 {
+  text-align: center;
 }
 
 /* span */
-span.red{
-  color:tomato;
+span.red {
+  color: tomato;
 }
-span.green{
-  color:springgreen;
+span.green {
+  color: springgreen;
 }
-span.blue{
-  color:deepskyblue;
+span.blue {
+  color: deepskyblue;
 }
-span.orange{
-  color:orange;
+span.orange {
+  color: orange;
 }
-span.pink{
-  color:pink;
+span.pink {
+  color: pink;
 }
-span.brown{
-  color:chocolate;
+span.brown {
+  color: chocolate;
 }
