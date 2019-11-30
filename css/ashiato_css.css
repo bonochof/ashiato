@@ -60,6 +60,10 @@ table.twitter {
   float: right;
   margin-right: -100px;
 }
+table.github {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
 table.map {
   width: 600px;
 }
