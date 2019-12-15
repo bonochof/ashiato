@@ -1,5 +1,6 @@
 # あしあと
-http://ashiato.bufsiz.jp
+~http://ashiato.bufsiz.jp~
+https://ashiato.kenkenpa.net
 
 ## Contents
 * Profile
