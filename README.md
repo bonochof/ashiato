@@ -29,7 +29,7 @@ https://ashiato.kenkenpa.net
 * HTML
 * CSS
 * Javascript
-* Ruby (to js using Opal)
+* Ruby (transrate to Javascript using Opal)
 
 ## Author
 [bonochof](https://github.com/bonochof)
