@@ -36,29 +36,31 @@ table {
   position: relative;
   z-index: 1;
 }
+table.main {
+  margin: auto;
+}
+table.main td {
+  vertical-align: top;
+}
 table.title {
   width: 600px;
   border-style: ridge;
+  margin: auto;
 }
 table.menu {
   width: 100px;
   background-color: #f1f1f1;
   border-style: outset;
-  float: right;
-  margin-right: 300px;
+  margin: top;
 }
 table.updates {
   width: 400px;
   background-color: #f1f1f1;
   border-style: solid;
   border-collapse: collapse;
-  float: right;
-  margin-right: 50px;
 }
 table.twitter {
-  width: 400px;
-  float: right;
-  margin-right: -100px;
+  width: 250px;
 }
 table.github {
   font-size: 14px;
@@ -74,6 +76,7 @@ table.profile {
   color: black;
   font-weight: bold;
   text-align: left;
+  margin: auto;
   margin-bottom: 50px;
 }
 table.expltools {
@@ -141,16 +144,20 @@ table.outline {
 table.tools {
   border-style: solid;
   text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
 }
 table.games {
   width: 600px;
   border-style: inset;
+  margin-bottom: 30px;
 }
 table.research {
-  width: 600px;
+  width: 570px;
   border-style: double;
   font-size: 20px;
   font-family: "CRPＣ＆Ｇれいしっく", fantasy;
+  margin-bottom: 30px;
 }
 table.links {
   width: 600px;
@@ -167,6 +174,7 @@ table.top {
   font-size: 15px;
   text-align: center;
   border-collapse: collapse;
+  margin: auto;
 }
 caption.game {
   font-size: 30px;
