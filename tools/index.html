@@ -11,16 +11,16 @@
     <meta name="description" content="学生時代に作ったゲームや研究のあしあとを紹介します．">
     <meta name="keyword" content="高専，高専生，ゲーム，研究，Mario，情報，あしあと">
     <title>あしあと / Tools</title>
-    <link rel="stylesheet" href="./css/ashiato_css.css" type="text/css">
-    <link rel="shortcut icon" href="./ico/favicon.ico">
+    <link rel="stylesheet" href="/css/ashiato_css.css" type="text/css">
+    <link rel="shortcut icon" href="/ico/favicon.ico">
   </head>
 
   <body>
     <div><table class="main">
     <!-- Title -->
     <tr><td colspan="2"><table class="title"><tr><td>
-    <img src="./images/title.png" alt="あしあと">
-    <img src="./images/string.png" alt="あしあと" class="titlestring">
+    <img src="/images/title.png" alt="あしあと">
+    <img src="/images/string.png" alt="あしあと" class="titlestring">
     </td></tr></table></td></tr>
     <!-- Title -->
     
@@ -33,13 +33,13 @@
     
     <!-- Menu Bar -->
     <tr><td><table class="menu">
-    <tr><td class="menu"><a href="./index.html"><img src="./images/icon_home.png" alt="Home">Home</a></td></tr>
-    <tr><td class="menu"><a href="./profile.html"><img src="./images/icon_profile.png" alt="Profile">Profile</a></td></tr>
-    <tr><td class="menu"><a href="https://scrapbox.io/ashiato-note/" target="_blank"><img src="./images/icon_note.png" alt="Note">Note</a></td></tr>
-    <tr><td class="menu"><a href="./tools.html"><img src="./images/icon_tools.png" alt="Tools">Tools</a></td></tr>
-    <tr><td class="menu"><a href="./games.html"><img src="./images/icon_games.png" alt="Games">Games</a></td></tr>
-    <tr><td class="menu"><a href="./research.html"><img src="./images/icon_research.png" alt="Research">Research</a></td></tr>
-    <tr><td class="menu"><a href="./links.html"><img src="./images/icon_links.png" alt="Links">Links</a></td></tr>
+    <tr><td class="menu"><a href="/"><img src="/images/icon_home.png" alt="Home">Home</a></td></tr>
+    <tr><td class="menu"><a href="/profile/"><img src="/images/icon_profile.png" alt="Profile">Profile</a></td></tr>
+    <tr><td class="menu"><a href="https://scrapbox.io/ashiato-note/" target="_blank"><img src="/images/icon_note.png" alt="Note">Note</a></td></tr>
+    <tr><td class="menu"><a href="/tools/"><img src="/images/icon_tools.png" alt="Tools">Tools</a></td></tr>
+    <tr><td class="menu"><a href="/games/"><img src="/images/icon_games.png" alt="Games">Games</a></td></tr>
+    <tr><td class="menu"><a href="/research/"><img src="/images/icon_research.png" alt="Research">Research</a></td></tr>
+    <tr><td class="menu"><a href="/links/"><img src="/images/icon_links.png" alt="Links">Links</a></td></tr>
     </table></td>
     <!-- Menu Bar -->
     
@@ -48,28 +48,28 @@
     <caption>現在時刻</caption>
     <tr><td><span id="view_clock"></span></td></tr>
     </table>
-    <script type="text/javascript" src="./js/clock.js"></script>
+    <script type="text/javascript" src="/js/clock.js"></script>
     
     <table class="tools">
     <caption>タイマー</caption>
     <tr><td><form name="form_count">
     <input name="counter" type="text" size="6"></form>
-    <span style="cursor: pointer" onClick="timer_set()"><img src="images/start.png" width="32"></span></td></tr>
+    <span style="cursor: pointer" onClick="timer_set()"><img src="/images/start.png" width="32"></span></td></tr>
     </table>
-    <script type="text/javascript" src="./js/timer.js"></script>
+    <script type="text/javascript" src="/js/timer.js"></script>
     
     <table class="tools">
     <caption>おみくじ</caption>
-    <tr><td><span style="cursor: pointer" onClick="omikuji()"><img src="images/omikuji.png" width="64"></span></td></tr>
+    <tr><td><span style="cursor: pointer" onClick="omikuji()"><img src="/images/omikuji.png" width="64"></span></td></tr>
     </table>
-    <script type="text/javascript" src="./js/omikuji.js"></script>
+    <script type="text/javascript" src="/js/omikuji.js"></script>
     
     <table class="tools">
     <caption>サイコロ</caption>
-    <tr><td><span style="cursor: pointer" onClick="altRan2()"><img src="images/dice.png" width="64"></span></td></tr>
+    <tr><td><span style="cursor: pointer" onClick="altRan2()"><img src="/images/dice.png" width="64"></span></td></tr>
     <tr><td><span id="sai">-</span></td></tr>
     </table>
-    <script type="text/javascript" src="./js/dice.js"></script>
+    <script type="text/javascript" src="/js/dice.js"></script>
     
     <table class="tools">
     <caption>文字繰り返し</caption>
@@ -78,7 +78,7 @@
     <tr><td><input type="button" value="→" onClick="setRepeat()">
     <input name="repeat" type="text" size="36"></form></td></tr>
     </table>
-    <script type="text/javascript" src="./js/repeat.js"></script>
+    <script type="text/javascript" src="/js/repeat.js"></script>
     
     <table class="tools">
     <caption>カンマ区切り</caption>
@@ -87,7 +87,7 @@
     <input type="button" value="→" onClick="number_format()">
     <input type="text" name="f_output"></form></td></tr>
     </table>
-    <script type="text/javascript" src="./js/comma.js"></script>
+    <script type="text/javascript" src="/js/comma.js"></script>
     
     <table class="tools">
     <caption>進数変換</caption>
@@ -108,7 +108,7 @@
     <input type="button" value="→" onClick="numberConvert()">
     <input type="text" name="f_output"></form></td></tr>
     </table>
-    <script type="text/javascript" src="./js/convert.js"></script>
+    <script type="text/javascript" src="/js/convert.js"></script>
     
     <form name="form_strcount"><table class="tools">
     <caption>文字数カウント</caption>
@@ -119,7 +119,7 @@
     <tr><td>行数</td><td><input readonly type="text" name="f_ret" size="6"></td></tr>
     <tr><td>段落数</td><td><input readonly type="text" name="f_par" size="6"></td></tr>
     </table></form>
-    <script type="text/javascript" src="./js/count.js"></script>
+    <script type="text/javascript" src="/js/count.js"></script>
     
     <form name="form_tabspace"><table class="tools">
     <caption>タブ→スペース変換</caption>
@@ -127,14 +127,14 @@
     <tr><td colspan="2"><input type="button" value="変換" onClick="tabToSpace()"></td></tr>
     <tr><td colspan="2"><textarea name="f_space" rows="5" cols="40"></textarea></td></tr>
     </table></form>
-    <script type="text/javascript" src="./js/tabspace.js"></script>
+    <script type="text/javascript" src="/js/tabspace.js"></script>
     
     <table class="tools">
     <caption>東海道五十三次</caption>
     <tr><td><img id="imgArea" src="" style="width:360px"></td></tr>
     <tr><td><button onClick="tokaido53.nextImage()">></button></td></tr>
     </table>
-    <script type="text/javascript" src="./js/tokaido53.js"></script>
+    <script type="text/javascript" src="/js/tokaido53.js"></script>
     </td></tr>
     <!-- Tools -->
 
