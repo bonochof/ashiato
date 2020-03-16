@@ -1,5 +1,3 @@
-document.getElementById("__old").style.display = "none";
-
 function shift() {
   const old = document.getElementById("__old");
   const nuxt = document.getElementById("__nuxt");
