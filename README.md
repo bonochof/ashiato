@@ -25,6 +25,10 @@ https://ashiato.kenkenpa.net
 * Products
   * p2p chat app
 
+## Framework
+* Vue.js
+* Nuxt
+
 ## Language
 * HTML
 * CSS
