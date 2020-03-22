@@ -11,3 +11,6 @@
 [submodule "products/p2p-chat"]
 	path = products/p2p-chat
 	url = https://github.com/bonochof/p2p-chat.git
+[submodule "ashiato-vue"]
+	path = ashiato-vue
+	url = https://github.com/bonochof/ashiato-vue
