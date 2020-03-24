@@ -46,7 +46,6 @@ table.main td {
 }
 table.title {
   width: 600px;
-  border-style: ridge;
   margin: auto;
 }
 table.menu {
@@ -222,6 +221,7 @@ img.titlestring {
   position: absolute;
   left: 0px;
   top: 0px;
+  border-style: solid;
 }
 img.game {
   width: 300px;
